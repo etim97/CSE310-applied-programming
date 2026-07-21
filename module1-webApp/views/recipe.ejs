@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NutriMate Recipe Finder">
+    <meta name="author" content="Wisdom Samuel Etim">
+
+    <title>Recipe Finder | NutriMate</title>
+
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+<!-- Header Section -->
+<header>
+    <nav>
+        <div class="logo">
+            <img src="/assets/logo remove bg.png" alt="NutriMate Logo">
+            <h1>NutriMate</h1>
+        </div>
+
+        <div class="hamburger" aria-label="Toggle menu">☰</div>
+
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/recipe">Recipe Finder</a></li>
+            <li><a href="/nutrition">Nutrition</a></li>
+        </ul>
+    </nav>
+</header>
+<!----main section-->
+<main>
+
+    <section class="finder">
+
+        <h1>Recipe Finder</h1>
+
+        <p>
+            Discover delicious and nutritious recipes tailored to your
+            preferences. Search by ingredients and explore healthy meal ideas
+            with simple cooking instructions.
+        </p>
+    <!--recipe finder input-->
+        <input
+            type="text"
+            id="recipeInput"
+            placeholder="Enter ingredients...">
+        <!------display error message -->
+        <p id="recipeMessage" class="message"></p>
+
+        <button id="recipeBtn">
+            Search Recipes
+        </button>
+
+    <!----recipe display container-->    
+        <div id="recipeContainer"></div>
+
+    </section>
+
+</main>
+<!---footer section-->
+<footer>
+
+    <p>&copy; 2024 NutriMate. All rights reserved.</p>
+
+    <p class="time"></p>
+
+</footer>
+
+<script type="module" src="/js/main.js"></script>
+
+</body>
+</html>

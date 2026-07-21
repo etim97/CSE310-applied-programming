@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="NutriMate application for Recipe Finderand Nutrition Tracker">
+<meta name="author" content="Wisdom Samuel Etim">
+<meta property="og:title" content="NutriMate">
+<meta property="og:description" content="Use the Recipe Finder & Nutrition Tracker to daily Nutritious Recommend.">
+<meta property="og:image" content="https://example.com/hero-image.jpg">
+<meta property="og:url" content="https://NutriMate.com">
+<meta property="og:type" content="website">
+<title>Nutrition page NutriMate</title>
+<link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+            <img src="src/assets/logo remove bg.png" alt="logo image" >
+             <h1>NutriMate</h1>
+            </div>
+            <div class="hamburger" aria-label="Toggle menu">☰</div>  
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipe.html">Recipe Finder</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+            </ul>
+        </nav>
+    </header>
+        <main>
+            <section class="nutrition">
+            <h1>Nutrition Tracker</h1>
+            <p>Track your daily nutrition intake and stay on top of your health goals with NutriMate's Nutrition Tracker. Log your meals, monitor your nutrient intake, and receive personalized recommendations to maintain a balanced diet.</p>
+        <input type="text"  id="nutritionInput" placeholder="Enter your meal details...">
+        <button id="nutritionBtn">Log Meal</button>
+         <div id="nutritionDetails"></div>
+        </main>
+         <footer>
+            <p>&copy; 2024 NutriMate. All rights reserved.</p>
+            <p class ="time"></p>
+         </footer>
+ <script type="module" src="src/main.js"></script> 
+</body>
+</html>

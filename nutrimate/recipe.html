@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="NutriMate application for Recipe Finderand Nutrition Tracker">
+<meta name="author" content="Wisdom Samuel Etim">
+<meta property="og:title" content="NutriMate">
+<meta property="og:description" content="Use the Recipe Finder & Nutrition Tracker to daily Nutritious Recommend.">
+<meta property="og:image" content="https://example.com/hero-image.jpg">
+<meta property="og:url" content="https://NutriMate.com">
+<meta property="og:type" content="website">
+<title>Recipe page NutriMate</title>
+<link rel="stylesheet" href="src/style.css">
+<script type="module" src="src/main.js"></script> 
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+            <img src="src/assets/logo remove bg.png" alt="logo image" >
+             <h1>NutriMate</h1>
+            </div>
+            <div class="hamburger" aria-label="Toggle menu">☰</div>  
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipe.html">Recipe Finder</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+            <section class="finder">
+            <H1>Recipe Finder</H1>
+            <p>Discover delicious and nutritious recipes tailored to your preferences with NutriMate's Recipe Finder. Search for recipes based on ingredients, dietary preferences, and nutritional needs to create meals that are both tasty and healthy.</p>
+            <input type="text" id="recipeInput" placeholder="Enter ingredients...">
+            <p id="recipeMessage" class="message"></p>
+            <button id="recipeBtn">Search Recipes</button>
+            <div id="recipeContainer"></div>
+            </section>
+        </main>
+            <footer>
+                <p>&copy; 2024 NutriMate. All rights reserved.</p>
+                <p class ="time"></p>
+            </footer>
+</body>
+</html>
